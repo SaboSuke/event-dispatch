@@ -1,6 +1,6 @@
 export default class EventDispatch {
     /**
-     * @desc Emits a custom events of your chosing
+     * @desc Emits custom events of your chosing
      *
      * @return {EventDispatch}
      */
