@@ -11,7 +11,7 @@ var EventDispatch = function () {
      * @param {Callback Function} event - contains the data passed to the event
      */
     this.dispatch = function (name, event) {
-        let callbacks = _this[name];
+        let callbacks = this[name];
         if (callbacks) callbacks.forEach(callback => callback(event));
 
         return this;
